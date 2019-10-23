@@ -1,0 +1,18 @@
+<script>
+
+// JavaScript goes here
+function ctreateParagraph()   
+  var para =document. createElement('p');
+   para.textContent = 'You clicked the Button'!;
+   document.body.appendchild(para);
+   }
+   
+   var buttons =document.querySelectorAll('button');
+   
+   for (var i =0; i <buttons.length ; i++) {
+   	buttons[i].addEventListener('click',createParagraph);
+   }
+<script>
+
+</body>
+
